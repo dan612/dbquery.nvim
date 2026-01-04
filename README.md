@@ -16,3 +16,11 @@ return {
   },
 }
 ```
+
+## Functions
+**database_connect**: Connects to a database using vim-dadbod
+- Keymap: `<leader>dbc`
+
+**database_query**: Queries a database using vim-dadbod.
+- Keymap: `<leader>db`
+
