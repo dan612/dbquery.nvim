@@ -29,3 +29,9 @@ return {
 **database_query**: Queries a database using vim-dadbod.
 - Keymap: `<leader>db`
 
+## Example Workflow
+Press `<leader>dbc` to connect to a database.
+
+Press `<leader>db` to query a database. Press ENTER to execute the query.
+
+The usual vim-dadbod split opens with the results.
