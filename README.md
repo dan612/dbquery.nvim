@@ -1,4 +1,5 @@
 # DBQuery Neovim Plugin
+![demo720](https://github.com/user-attachments/assets/e1bdb0d1-aa07-49e3-80a9-a6c0cc68442f)
 
 ## Description
 A Neovim plugin for querying databases using vim-dadbod.
