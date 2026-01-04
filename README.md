@@ -8,6 +8,11 @@ A Neovim plugin for querying databases using vim-dadbod.
 ```lua
 return {
   dir = "dan612/dbquery.nvim",
+  init = function() -- Add all database connections here.
+    vim.g.dbs = {
+      sqlite = "sqlite://" .. vim.fn.expand("~/path/to/mydb.sqlite"),
+    }
+  end,
   config = function()
     require("dbquery").setup()
   end,
